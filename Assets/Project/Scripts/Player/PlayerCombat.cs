@@ -11,6 +11,7 @@ public class PlayerCombat : MonoBehaviour
 
     private float nextFireTime;
     private Animator animator;
+    private int damageBonus;
 
     private void Awake()
     {
@@ -37,7 +38,10 @@ public class PlayerCombat : MonoBehaviour
         }
 
     }
-
+    public void AddDamageBonus(int amount)
+    {
+        damageBonus += amount;
+    }
     public void SetWeapon (WeaponData newWeapon)
     {
         weapon = newWeapon;
@@ -79,7 +83,7 @@ public class PlayerCombat : MonoBehaviour
         }
 
         float direction = Mathf.Sign(transform.localScale.x);
-        projectileScript.Launch(direction, weapon);
+        projectileScript.Launch(direction, weapon, damageBonus);
 
         //if(AudioManager.Instance != null)
        // AudioManager.Instance.PlayShoot();

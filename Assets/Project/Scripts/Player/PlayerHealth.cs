@@ -35,8 +35,6 @@ public class PlayerHealth : MonoBehaviour
     }
     public void TakeDamage(int amount)
     {
-
-        Debug.Log("TakeDamage llamado. Daño: " + amount);
         if (chakraInvulnerable)
             return;
 
@@ -65,6 +63,17 @@ public class PlayerHealth : MonoBehaviour
     {
         chakraInvulnerable = value;
     }
+    public void ActivateInvulnerability(float seconds)
+    {
+        StopAllCoroutines();
+        StartCoroutine(InvulnerabilityRoutine(seconds));
+    }
+    private System.Collections.IEnumerator InvulnerabilityRoutine(float seconds)
+    {
+        chakraInvulnerable = true;
+        yield return new WaitForSeconds(seconds);
+        chakraInvulnerable = false;
+    }
     public void Heal(int amount)
     {
         currentHealth = Mathf.Min(currentHealth + amount, maxHealth);
@@ -72,7 +81,7 @@ public class PlayerHealth : MonoBehaviour
     }
     private void Die()
     {
-       
+        animator.SetBool("IsDead", true);
         animator.SetTrigger("Death");
         rb.linearVelocity = Vector2.zero;
         GetComponent<PlayerController>().enabled = false;

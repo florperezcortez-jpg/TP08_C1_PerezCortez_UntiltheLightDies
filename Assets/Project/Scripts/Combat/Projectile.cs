@@ -33,9 +33,9 @@ public class Projectile : MonoBehaviour
 
     }
 
-    public void Launch(float direction, WeaponData data)
+    public void Launch(float direction, WeaponData data, int bonus = 0)
     {
-        damage = data.damage;
+        damage = data.damage + bonus;
         speed = data.projectileSpeed;
         Destroy(gameObject, data.projectileLifetime);
 
