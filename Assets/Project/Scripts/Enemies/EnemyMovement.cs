@@ -1,11 +1,18 @@
 using UnityEngine;
 
+
 public class EnemyMovement : MonoBehaviour
 {
     [SerializeField] private float speed = 2f;
     [SerializeField] private float detectionRange = 6f;
     [SerializeField] private float stopDistance = 1.5f;
+    [SerializeField] private float verticalTolerance = 2.5f;
     [SerializeField] private float despawnDistance = 25f;
+
+    [SerializeField] private LayerMask groundLayer;
+    [SerializeField] private float edgeOffsetX = 0.6f;
+    [SerializeField] private float edgeOriginY = 0.5f;
+    [SerializeField] private float edgeRayLength = 1.2f;
     private Rigidbody2D rb;
     private SpriteRenderer sr;
     private Animator animator;
@@ -33,16 +40,20 @@ public class EnemyMovement : MonoBehaviour
     {
         if (target == null)
             return;
-        float distance = Mathf.Abs(target.position.x - transform.position.x);
 
-        if(distance <= detectionRange)
-        {
+        float dx = target.position.x - transform.position.x;
+        float distance = Mathf.Abs(dx);
+        float dy = Mathf.Abs(target.position.y - transform.position.y);
+
+        if (distance <= detectionRange)
             hasDetected = true;
-        }
 
-        if (hasDetected && distance > stopDistance)
+        bool sameLevel = dy <= verticalTolerance;
+        bool shouldChase = hasDetected && sameLevel && distance > stopDistance;
+        float direction = Mathf.Sign(dx);
+
+        if (shouldChase && HasGroundAhead(direction))
         {
-            float direction = Mathf.Sign(target.position.x - transform.position.x);
             rb.linearVelocity = new Vector2(direction * speed, rb.linearVelocity.y);
             sr.flipX = direction > 0f;
         }
@@ -50,11 +61,25 @@ public class EnemyMovement : MonoBehaviour
         {
             rb.linearVelocity = new Vector2(0f, rb.linearVelocity.y);
         }
+
         animator.SetFloat("Speed", Mathf.Abs(rb.linearVelocity.x));
         if (distance > despawnDistance || transform.position.y < -20f)
-        {
             Destroy(gameObject);
-            return;
+    
+    }
+
+    private bool HasGroundAhead(float direction)
+    {
+        Vector2 origin = (Vector2)transform.position + new Vector2(direction * edgeOffsetX, edgeOriginY);
+        return Physics2D.Raycast(origin, Vector2.down, edgeRayLength, groundLayer);
+    }
+    private void OnDrawGizmosSelected()
+    {
+        Gizmos.color = Color.red;
+        for(int d = -1; d <= 1; d += 2)
+        {
+            Vector2 origin = (Vector2)transform.position + new Vector2(d * edgeOffsetX, edgeOriginY);
+        Gizmos.DrawLine(origin, origin + Vector2.down * edgeRayLength);
         }
     }
     public void Alert()

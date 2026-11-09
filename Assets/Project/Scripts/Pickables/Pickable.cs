@@ -16,6 +16,7 @@ public class Pickable : MonoBehaviour
     [SerializeField] private float duration = 5f;
     [SerializeField] private float lifetime = 0f;
     [SerializeField] private AudioClip pickupSound;
+    [SerializeField] private string message;
 
     private void Start()
     {
@@ -45,6 +46,8 @@ public class Pickable : MonoBehaviour
 
             case PickableType.Invulnerability:
                 player.ActivateInvulnerability(duration);
+                if (HUDMessage.Instance != null)
+                    HUDMessage.Instance.ShowCountDown("¡Invulnerable!", duration);
                 break;
 
             case PickableType.Coin:
@@ -54,9 +57,16 @@ public class Pickable : MonoBehaviour
 
             case PickableType.Key:
                 if (GameStats.Instance != null)
+                {
                     GameStats.Instance.AddKey();
+                    if (HUDMessage.Instance != null)
+                        HUDMessage.Instance.Show("¡Llave" + GameStats.Instance.Keys + "/" + GameStats.Instance.KeysRequired + "!");
+                }
                 break;
         }
+
+        if (!string.IsNullOrEmpty(message) && HUDMessage.Instance != null)
+            HUDMessage.Instance.Show(message);
         if (pickupSound != null)
             AudioSource.PlayClipAtPoint(pickupSound, transform.position);
 
