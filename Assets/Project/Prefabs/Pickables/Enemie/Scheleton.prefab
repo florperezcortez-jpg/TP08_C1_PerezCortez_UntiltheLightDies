@@ -16,6 +16,7 @@ GameObject:
   - component: {fileID: 7262203855710785631}
   - component: {fileID: 9222932935865773056}
   - component: {fileID: 8453457337795338164}
+  - component: {fileID: 6474079380413438424}
   m_Layer: 0
   m_Name: Scheleton
   m_TagString: Untagged
@@ -246,3 +247,25 @@ MonoBehaviour:
   edgeOffsetX: 0.6
   edgeOriginY: 0
   edgeRayLength: 3
+--- !u!114 &6474079380413438424
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8026318176148021123}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1c3f40d5327b1154da18f5fa85cc2786, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::EnemyDrop
+  keyPrefab: {fileID: 437767314340158585, guid: a2d80015fe10b054292c19a2a01ef3b3, type: 3}
+  drops:
+  - prefab: {fileID: 2195429785079683450, guid: a0e9761efd61faa4a9c1a6cd2f8c09a7, type: 3}
+    chance: 0.08
+  - prefab: {fileID: 1123587352657610147, guid: f4c3921259b3575419b8c06ff68d8a59, type: 3}
+    chance: 0.35
+  - prefab: {fileID: 2468621144185950886, guid: 25e32938fc573f445bfaf767c2f0be20, type: 3}
+    chance: 0.07
+  - prefab: {fileID: 9153740870398203131, guid: 3d3ccb7c5611441429b4d1bfeb1b3a32, type: 3}
+    chance: 0.15
