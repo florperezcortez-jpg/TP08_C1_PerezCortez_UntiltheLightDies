@@ -28,6 +28,9 @@ public class EnemyHealth : MonoBehaviour
 
     private void Die()
     {
+        EnemyDrop drop = GetComponent<EnemyDrop>();
+        if (drop != null)
+            drop.TryDrop();
         if (deathEffectPrefab != null)
         Instantiate(deathEffectPrefab, transform.position, Quaternion.identity);
         Destroy(gameObject);

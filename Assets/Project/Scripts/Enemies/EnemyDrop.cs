@@ -1,39 +1,43 @@
 using UnityEngine;
 
+[System.Serializable]
+public class DropItem
+{
+    public GameObject prefab;
+    [Range(0f, 1f)] public float chance = 0.2f;
+}
+
 public class EnemyDrop : MonoBehaviour
 {
-    [SerializeField] private GameObject lifePrefab;
-    [SerializeField] private GameObject ramenPrefab;
-    [SerializeField] private GameObject chakraPrefab;
-    [SerializeField, Range(0f, 1f)] private float lifeChance = 0.15f;
-    [SerializeField, Range(0f, 1f)] private float ramenChance = 0.4f;
-    [SerializeField, Range(0f, 1f)] private float chakraChance = 0.07f;
-    private Transform container;
-
-    private void Start()
-    {
-        GameObject pickables = GameObject.Find("Pickables");
-        if (pickables != null)
-        {
-            container = pickables.transform;
-        }
-    }
+    [SerializeField] private GameObject keyPrefab;
+    [SerializeField] private DropItem[] drops;
 
     public void TryDrop()
     {
-        float roll = Random.value;
+      
+        if (keyPrefab != null && GameStats.Instance != null && GameStats.Instance.ShouldDropLastKey)
+        {
+            Instantiate(keyPrefab, transform.position + Vector3.up * 0.3f, Quaternion.identity);
+            GameStats.Instance.MarkLastKeyDropped();
 
-        if (roll < lifeChance)
-        {
-            Instantiate(lifePrefab, transform.position, Quaternion.identity, container);
+            if (HUDMessage.Instance != null)
+                HUDMessage.Instance.Show("¡El esqueleto soltó una llave!", 3f);
+            return;
         }
-        else if (roll < lifeChance + ramenChance)
+
+      
+        float roll = Random.value;
+        float accumulated = 0f;
+
+        foreach (DropItem item in drops)
         {
-            Instantiate(ramenPrefab, transform.position, Quaternion.identity, container);
-        }
-        else if (roll < lifeChance + ramenChance + chakraChance)
-        {
-            Instantiate(chakraPrefab, transform.position, Quaternion.identity, container);
+            accumulated += item.chance;
+            if (roll < accumulated)
+            {
+                if (item.prefab != null)
+                    Instantiate(item.prefab, transform.position + Vector3.up * 0.3f, Quaternion.identity);
+                return;
+            }
         }
     }
 }

@@ -20,6 +20,7 @@ public class PlayerController : MonoBehaviour
     [SerializeField] private LayerMask groundLayer;
     [SerializeField] private InputActionReference Move;
     [SerializeField] private InputActionReference Jump;
+    [SerializeField] private float groundRayLength = 0.2f;
 
     private float coyoteCounter;
     private float jumpBufferCounter;
@@ -45,7 +46,7 @@ public class PlayerController : MonoBehaviour
     private void Update()
     {
         moveInput = Move.action.ReadValue<Vector2>().x;
-        isGrounded = Physics2D.OverlapCircle(groundCheck.position, groundRadius, groundLayer);
+        isGrounded = Physics2D.Raycast(groundCheck.position, Vector2.down,groundRayLength, groundLayer);
        
         if (isGrounded && rb.linearVelocity.y <= 0.1f) //en el piso se recargan el coyotetime y el salto extra
         {
@@ -114,6 +115,6 @@ public class PlayerController : MonoBehaviour
     {
         if (groundCheck == null) return;
         Gizmos.color = Color.red;
-        Gizmos.DrawWireSphere(groundCheck.position, groundRadius);
+        Gizmos.DrawLine (groundCheck.position,groundCheck.position + Vector3.down * groundRayLength);
     }
 }
