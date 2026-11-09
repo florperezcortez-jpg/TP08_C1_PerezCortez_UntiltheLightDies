@@ -1,0 +1,988 @@
+fileFormatVersion: 2
+guid: f726db398df3d7740a83d3efda72f448
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4391729673923386548
+    second: Hasta que muera la luz_0
+  - first:
+      213: -5324299489559415220
+    second: Hasta que muera la luz_1
+  - first:
+      213: 4084828175440868939
+    second: Hasta que muera la luz_2
+  - first:
+      213: 900072940151131023
+    second: Hasta que muera la luz_3
+  - first:
+      213: -2525576837876016417
+    second: Hasta que muera la luz_4
+  - first:
+      213: -6940199027631568406
+    second: Hasta que muera la luz_5
+  - first:
+      213: -2745110340947357047
+    second: Hasta que muera la luz_6
+  - first:
+      213: 8117075154257934921
+    second: Hasta que muera la luz_7
+  - first:
+      213: -7051073492240890961
+    second: Hasta que muera la luz_8
+  - first:
+      213: -8236984277860590880
+    second: Hasta que muera la luz_9
+  - first:
+      213: 4034991990579210785
+    second: Hasta que muera la luz_10
+  - first:
+      213: 7092350755392434088
+    second: Hasta que muera la luz_11
+  - first:
+      213: -8387181817950605704
+    second: Hasta que muera la luz_12
+  - first:
+      213: -2794670676475016193
+    second: Hasta que muera la luz_13
+  - first:
+      213: -1452705328902089621
+    second: Hasta que muera la luz_14
+  - first:
+      213: -2122504902987267750
+    second: Hasta que muera la luz_15
+  - first:
+      213: -9039714230329789811
+    second: Hasta que muera la luz_16
+  - first:
+      213: -3926241323157449451
+    second: Hasta que muera la luz_17
+  - first:
+      213: -7378577005254059980
+    second: Hasta que muera la luz_18
+  - first:
+      213: -6494679848884497056
+    second: Hasta que muera la luz_19
+  - first:
+      213: -4742874406277116019
+    second: Hasta que muera la luz_20
+  - first:
+      213: -5706258219562148194
+    second: Hasta que muera la luz_21
+  - first:
+      213: -8218099838079415303
+    second: Hasta que muera la luz_22
+  - first:
+      213: -7969279891654455985
+    second: Hasta que muera la luz_23
+  - first:
+      213: -6433064048433410861
+    second: Hasta que muera la luz_24
+  - first:
+      213: 846700094765347962
+    second: Hasta que muera la luz_25
+  - first:
+      213: -4123852391756377845
+    second: Hasta que muera la luz_26
+  - first:
+      213: 5050367063062573677
+    second: Hasta que muera la luz_27
+  - first:
+      213: -7014525952037487146
+    second: Hasta que muera la luz_28
+  - first:
+      213: 2359091796993648483
+    second: Hasta que muera la luz_29
+  - first:
+      213: 5934269605718980243
+    second: Hasta que muera la luz_30
+  - first:
+      213: -4767707803640621103
+    second: Hasta que muera la luz_31
+  - first:
+      213: -7839816412509052279
+    second: Hasta que muera la luz_32
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Hasta que muera la luz_0
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 0
+        width: 2059
+        height: 716
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c43214441217d03c0800000000000000
+      internalID: -4391729673923386548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hasta que muera la luz_1
+      rect:
+        serializedVersion: 2
+        x: 1084
+        y: 714
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c467407d2d94c16b0800000000000000
+      internalID: -5324299489559415220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hasta que muera la luz_2
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 345
+        width: 116
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b46f8ad459930b830800000000000000
+      internalID: 4084828175440868939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hasta que muera la luz_3
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 457
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f8b46adf193bd7c00800000000000000
+      internalID: 900072940151131023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hasta que muera la luz_4
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 449
+        width: 13
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fda127d3f3953fcd0800000000000000
+      internalID: -2525576837876016417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hasta que muera la luz_5
+      rect:
+        serializedVersion: 2
+        x: 2067
+        y: 441
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae9428f41c57faf90800000000000000
+      internalID: -6940199027631568406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hasta que muera la luz_6
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 401
+        width: 7
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 982d49a60b867e9d0800000000000000
+      internalID: -2745110340947357047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hasta que muera la luz_7
+      rect:
+        serializedVersion: 2
+        x: 2013
+        y: 413
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 94a71b0c8d4a5a070800000000000000
+      internalID: 8117075154257934921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hasta que muera la luz_8
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 391
+        width: 20
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa30fc9540e852e90800000000000000
+      internalID: -7051073492240890961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hasta que muera la luz_9
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 387
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ea54a1d07a50bd80800000000000000
+      internalID: -8236984277860590880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hasta que muera la luz_10
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 368
+        width: 10
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 12a250e46db2ff730800000000000000
+      internalID: 4034991990579210785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hasta que muera la luz_11
+      rect:
+        serializedVersion: 2
+        x: 2089
+        y: 377
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8afa3a56f671d6260800000000000000
+      internalID: 7092350755392434088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hasta que muera la luz_12
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 343
+        width: 6
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87e6072e29eba9b80800000000000000
+      internalID: -8387181817950605704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hasta que muera la luz_13
+      rect:
+        serializedVersion: 2
+        x: 2067
+        y: 338
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ffb818893d55739d0800000000000000
+      internalID: -2794670676475016193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hasta que muera la luz_14
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 250
+        width: 51
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b64597b3334f6dbe0800000000000000
+      internalID: -1452705328902089621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hasta que muera la luz_15
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 196
+        width: 70
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a514b6749095b82e0800000000000000
+      internalID: -2122504902987267750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hasta que muera la luz_16
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 278
+        width: 20
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d82362e4dcb7c8280800000000000000
+      internalID: -9039714230329789811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hasta que muera la luz_17
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 291
+        width: 13
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5159db691503389c0800000000000000
+      internalID: -3926241323157449451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hasta que muera la luz_18
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 274
+        width: 8
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43857fd9e470a9990800000000000000
+      internalID: -7378577005254059980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hasta que muera la luz_19
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 272
+        width: 9
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0651a5576134ed5a0800000000000000
+      internalID: -6494679848884497056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hasta que muera la luz_20
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 249
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8f8f873bdced2eb0800000000000000
+      internalID: -4742874406277116019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hasta que muera la luz_21
+      rect:
+        serializedVersion: 2
+        x: 2059
+        y: 264
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9e5852e16c4fc0b0800000000000000
+      internalID: -5706258219562148194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hasta que muera la luz_22
+      rect:
+        serializedVersion: 2
+        x: 2065
+        y: 262
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9fbc4961db173fd80800000000000000
+      internalID: -8218099838079415303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hasta que muera la luz_23
+      rect:
+        serializedVersion: 2
+        x: 2067
+        y: 215
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4dc54e592e676190800000000000000
+      internalID: -7969279891654455985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hasta que muera la luz_24
+      rect:
+        serializedVersion: 2
+        x: 2067
+        y: 210
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3dc4acfe45a29b6a0800000000000000
+      internalID: -6433064048433410861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hasta que muera la luz_25
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 191
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a7437cb004510cb00800000000000000
+      internalID: 846700094765347962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hasta que muera la luz_26
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 161
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b01573b491225c6c0800000000000000
+      internalID: -4123852391756377845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hasta que muera la luz_27
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 95
+        width: 25
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d627d2bf512861640800000000000000
+      internalID: 5050367063062573677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hasta que muera la luz_28
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 100
+        width: 9
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ddfb09afc567ae90800000000000000
+      internalID: -7014525952037487146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hasta que muera la luz_29
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 69
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 36728588d7d2db020800000000000000
+      internalID: 2359091796993648483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hasta que muera la luz_30
+      rect:
+        serializedVersion: 2
+        x: 456
+        y: 47
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 396f64ae3c2ca5250800000000000000
+      internalID: 5934269605718980243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hasta que muera la luz_31
+      rect:
+        serializedVersion: 2
+        x: 1595
+        y: 35
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d794235303b5ddb0800000000000000
+      internalID: -4767707803640621103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hasta que muera la luz_32
+      rect:
+        serializedVersion: 2
+        x: 1855
+        y: 33
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 982ee1c8280633390800000000000000
+      internalID: -7839816412509052279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Hasta que muera la luz_0: -4391729673923386548
+      Hasta que muera la luz_1: -5324299489559415220
+      Hasta que muera la luz_10: 4034991990579210785
+      Hasta que muera la luz_11: 7092350755392434088
+      Hasta que muera la luz_12: -8387181817950605704
+      Hasta que muera la luz_13: -2794670676475016193
+      Hasta que muera la luz_14: -1452705328902089621
+      Hasta que muera la luz_15: -2122504902987267750
+      Hasta que muera la luz_16: -9039714230329789811
+      Hasta que muera la luz_17: -3926241323157449451
+      Hasta que muera la luz_18: -7378577005254059980
+      Hasta que muera la luz_19: -6494679848884497056
+      Hasta que muera la luz_2: 4084828175440868939
+      Hasta que muera la luz_20: -4742874406277116019
+      Hasta que muera la luz_21: -5706258219562148194
+      Hasta que muera la luz_22: -8218099838079415303
+      Hasta que muera la luz_23: -7969279891654455985
+      Hasta que muera la luz_24: -6433064048433410861
+      Hasta que muera la luz_25: 846700094765347962
+      Hasta que muera la luz_26: -4123852391756377845
+      Hasta que muera la luz_27: 5050367063062573677
+      Hasta que muera la luz_28: -7014525952037487146
+      Hasta que muera la luz_29: 2359091796993648483
+      Hasta que muera la luz_3: 900072940151131023
+      Hasta que muera la luz_30: 5934269605718980243
+      Hasta que muera la luz_31: -4767707803640621103
+      Hasta que muera la luz_32: -7839816412509052279
+      Hasta que muera la luz_4: -2525576837876016417
+      Hasta que muera la luz_5: -6940199027631568406
+      Hasta que muera la luz_6: -2745110340947357047
+      Hasta que muera la luz_7: 8117075154257934921
+      Hasta que muera la luz_8: -7051073492240890961
+      Hasta que muera la luz_9: -8236984277860590880
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
